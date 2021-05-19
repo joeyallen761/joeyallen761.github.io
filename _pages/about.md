@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate studying HCI in the Computer Science Department at Washington University in St. Louis. My primary area of research examines the barriers that programmers face when developing their coding ability, and searches for ways to improve this process. Although
+I am a PhD candidate studying HCI in the Computer Science Department at Washington University in St. Louis. My primary area of research examines the barriers that programmers face when developing their coding abilities. I'm also for ways to improve this process.
+
+In addition to human-computer interaction, I am also interested in the interaction of AI and Society.  _how__
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
