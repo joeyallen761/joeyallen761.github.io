@@ -2,7 +2,7 @@
 title: "Quantifying Novice Behavior, Experience, and Mental Effort in Code Puzzle Pathways."
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 212. The number 3 is left for future work.'
+excerpt: ''
 date: 2021-05-9
 venue: 'Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
