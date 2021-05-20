@@ -1,7 +1,7 @@
 ---
 title: "Mercer University Creative Computer Camps"
 collection: teaching
-type: "camp"
+type: "Camp Instructor"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Mercer University Computer Science Department"
 date: 2013-07-01
