@@ -9,5 +9,3 @@ paperurl: 'https://dl.acm.org/doi/fullHtml/10.1145/3411763.3451752'
 citation: 'Allen, J. Kelleher, C. (2021). &quot;Quantifying Novice Behavior, Experience, and Mental Effort in Code Puzzle Pathways.&quot; <i>2021 CHI Conference on Human Factors in Computing Systems</i>. 1(2).'
 ---
 
-
-Allen, J. Kelleher, C. (2021). "Quantifying Novice Behavior, Experience, and Mental Effort in Code Puzzle Pathways." <i>CHI Conference on Human Factors in Computing Systems</i>. 1(2).
