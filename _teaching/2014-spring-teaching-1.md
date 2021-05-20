@@ -1,14 +1,15 @@
 ---
-title: "Teaching experience 1"
+title: "Mercer University Creative Computer Camps"
 collection: teaching
-type: "Undergraduate course"
+type: "camp"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Mercer University Computer Science Department"
 date: 2014-01-01
-location: "City, Country"
+location: "Macon, GA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+In summer of 2014, I taught introductory programming to grades 2-12 through the visualization softwares “Greenfoot”, “Scratch”, and “Alice”. In a separate class I also instructed groups of 2nd-5th or 6th-12th graders in programming of LEGO’s Ev3 robot. Finally, I taught a week-long course showing high school students the fundamentals of video game creation and design through programs like “Scratch” and “Kodu.”
+
 
 Heading 1
 ======
