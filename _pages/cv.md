@@ -49,6 +49,10 @@ Work experience
   * Georgia Tech Research Institute (GTRI)
   * Duties included: Test and patch software issues
   
+* August 2015 - March 2019: XOS Replay Technician
+  * Mercer University Athletics
+  * Duties included: Support referees officiating live NCAA Basketball and Football games with automatic replay
+
 Skills
 ======
 * Software Engineering
