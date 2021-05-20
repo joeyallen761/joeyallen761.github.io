@@ -1,14 +1,17 @@
 ---
-title: "Teaching experience 2"
+title: "NASA Coding for Teachers Workshop"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "Museum of Aviation"
 date: 2015-01-01
-location: "City, Country"
+location: "Warner Robins, GA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+In this workshop, teachers from all over Georgia were taught how to use online tools and games--including Scratch, Lightbot, and Hour of Code--to introduce their students to programming, and to develop long-term plans in their curriculums for advancing their students' knowledge.
+
+[More information here](http://inspiredtoeducate.net/inspiredtoeducate/reflecting-on-nasa-coding-for-teachers-workshop/)
+
 
 Heading 1
 ======
