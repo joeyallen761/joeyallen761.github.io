@@ -78,7 +78,7 @@ Teaching
   
 Service and leadership
 ======
-* Studio TESLA - Education Outreach Team (Spring 2020)
+* Studio TESLA - STEM Education Outreach Team (Spring 2020)
 * Invited Developer - Navicent Health Code for Care Code-A-Thon (Spring 2017)
 * Upward Basketball Coach (Spring 2017)
 * Tutor - Central High School (Fall 2016)
