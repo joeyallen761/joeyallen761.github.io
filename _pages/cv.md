@@ -61,6 +61,7 @@ Skills
   * Natural Language Processing
   * Autoencoders
 * Qualitative and quantitative research
+* User Experience
 
 Publications
 ======
