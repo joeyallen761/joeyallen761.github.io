@@ -35,23 +35,23 @@ Work experience
 
 * August 2017 - December 2017: Lab Assistant
   * Mercer University Mathematics Department
-  * Duties included: Support students using Python in Discrete Mathematics Lab
+  * Duties included: Supporting students using Python in Discrete Mathematics Lab
 
 * May 2017 - August 2017: Research Assistant
   * Carnegie Mellon University Human-Computer Interaction Institute
-  * Duties included: Develop dashboard that trains TAs how to teach their first class
+  * Duties included: Developing dashboard that trains TAs how to teach their first class
 
 * May 2016 - August 2016: Research Assistant
   * Washington University in St. Louis
-  * Duties included: Develop adaptive code puzzle system to introduce children to programming
+  * Duties included: Developing adaptive code puzzle system to introduce children to programming
 
 * August 2015 - December 2015: Visiting Student Intern
   * Georgia Tech Research Institute (GTRI)
-  * Duties included: Test and patch software issues
+  * Duties included: Testing and patching software issues
   
 * August 2015 - March 2019: XOS Replay Technician
   * Mercer University Athletics
-  * Duties included: Support referees officiating live NCAA Basketball and Football games with automatic replay
+  * Duties included: Supporting referees officiating live NCAA Basketball and Football games with automatic replay
 
 Skills
 ======
