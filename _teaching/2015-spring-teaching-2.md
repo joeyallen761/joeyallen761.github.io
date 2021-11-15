@@ -12,12 +12,3 @@ In this workshop, teachers from all over Georgia were taught how to use online t
 
 [More information here](http://inspiredtoeducate.net/inspiredtoeducate/reflecting-on-nasa-coding-for-teachers-workshop/)
 
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
