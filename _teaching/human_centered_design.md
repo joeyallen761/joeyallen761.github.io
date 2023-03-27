@@ -1,13 +1,13 @@
 ---
-title: "NASA Coding for Teachers Workshop"
+title: "Mentored Teaching Experience: Introduction to Human Centered Design"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "Museum of Aviation"
-date: 2015-01-01
-location: "Warner Robins, GA"
+type: "Teaching Assistantship"
+permalink: /teaching/human_centered_design
+venue: "Washington University in St. Louis"
+date: Fall 2022
+location: "St. Louis, MO"
 ---
 
-In this workshop, teachers from all over Georgia were taught how to use online tools and games--including Scratch, Lightbot, and Hour of Code--to introduce their students to programming, and to develop long-term plans in their curriculums for advancing their students' knowledge.
+I assisted Professor Caitlin Kelleher conduct this undergraduate course which teachest students human-centered design through projects and in-class discussion. Topics include Information Foraging Theory, Iterative Design, Supporting Problemsolving Strategies, and Cognitive Load Theory. Students conducted user tests with web interfaces, and used their findings to iteratively evolve these interfaces. My duties included helping students with generic questions, holding office hours, and leading the section and project on Cognitive Load Theory.
 
-[More information here](http://inspiredtoeducate.net/inspiredtoeducate/reflecting-on-nasa-coding-for-teachers-workshop/)
+[More information here](https://www.cse.wustl.edu/~ckelleher/courses/cse256a/fall22/)
