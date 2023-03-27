@@ -1,7 +1,7 @@
 ---
 title: "React example viability for efficient API learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js"
 collection: publications
-permalink: /publication/paper3
+permalink: /publication/paper4.md
 excerpt: ''
 date: 2023-03-05
 venue: 'Journal of Computer Languages (COLA)'
