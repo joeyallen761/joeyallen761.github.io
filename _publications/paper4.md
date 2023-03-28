@@ -1,5 +1,5 @@
 ---
-title: "React example viability for efficient API learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js"
+title: "React Example Viability for Efficient API Learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js"
 collection: publications
 permalink: /publication/paper4
 excerpt: ''
