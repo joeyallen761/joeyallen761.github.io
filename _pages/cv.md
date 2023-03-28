@@ -83,7 +83,7 @@ Teaching
   
 Service and leadership
 ======
-* Volunteer Reviewer, data.org Inclusive Growth and Recovery Challenge
+* Volunteer Reviewer, data.org Inclusive Growth and Recovery Challenge (Spring 2020)
 * Studio TESLA - STEM Education Outreach Team (Spring 2020)
 * Invited Developer - Navicent Health Code for Care Code-A-Thon (Spring 2017)
 * Upward Basketball Coach (Spring 2017)
@@ -94,6 +94,6 @@ Service and leadership
 * Volunteer Instructor - Museum of Aviation 3D CAD Modelling and Game Design Workshops for Kids (Fall 2015)
 * Stipended Instructor - NASA Coding for Teachers Workshop (Fall 2015)
 * Organizer, Co-director, Impromptu Coach - Mercer Battle Bot Bears Competition (NXT Mindstorms) (Fall 2015)
-* Planner, Organizer, and Judge - Mercer University Alice Programming Competition (Spring`15/Fall`15)
+* Planner, Organizer, and Judge - Mercer University Alice Programming Competition (Spring & Fall 2015)
 * Mercer University Leadership Conference (Winter 2015)
 
