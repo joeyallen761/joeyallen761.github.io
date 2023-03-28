@@ -16,42 +16,42 @@ Education
 
 Work experience
 ======
-* August 2019-Present: Research Assistant
-  * Washington University in St. Louis
-  * Duties included: Investigating and addressing the barriers that novice programmers face
+* **Research Assistant** (August 2019- Present)
+  * _Washington University in St. Louis_
+  * Investigating and addressing the barriers that programmers face when using unfamiliar APIs and reusing code.
   * Advisor: Dr. Caitlin Kelleher
  
-* February 2016 - July 2019: Software Engineer
-  * Mercer Engineering Research Center (MERC)
-  * Duties included: Developing and testing AI software for predictive aircraft maintenance
+* **Software Engineer - Applied AI** (February 2016 - July 2019)
+  * _Mercer Engineering Research Center (MERC)_
+  * Developed and tested AI software for predictive aircraft maintenance.
 
-* August 2018 - January 2019: Fellow
-  * Niantic Inc, Knight Foundation
-  * Duties included: Coordinating events that leveraged Augmented Reality to drive civic engagement
+* **Fellow** (August 2018 - January 2019)
+  * _Niantic Inc, Knight Foundation_
+  * Coordinated events that leveraged Augmented Reality to drive civic engagement in Macon, GA.
 
-* August 2017 - December 2017: Research Assistant
-  * Mercer University Physics Department
-  * Duties included: Modeling the relationship between metacognition and class performance
+* **Research Assistant** (August 2017 - December 2017)
+  * _Mercer University Physics Department_
+  * Used Machine Learning to model the relationship between metacognition and class performance.
 
-* August 2017 - December 2017: Lab Assistant
-  * Mercer University Mathematics Department
-  * Duties included: Supporting students using Python in Discrete Mathematics Lab
+* **Lab Assistant** (August 2017 - December 2017)
+  * _Mercer University Mathematics Department_
+  * Supported students using Python in Discrete Mathematics Lab.
 
-* May 2017 - August 2017: Research Assistant
-  * Carnegie Mellon University Human-Computer Interaction Institute
-  * Duties included: Developing dashboard that trains TAs how to teach their first class
+* **Research Assistant** (May 2017 - August 2017)
+  * _Carnegie Mellon University Human-Computer Interaction Institute_
+  * Developed dashboard that uses smart classroom sensors to coach TAs on how to teach their first class.
 
-* May 2016 - August 2016: Research Assistant
-  * Washington University in St. Louis
-  * Duties included: Developing adaptive code puzzle system to introduce children to programming
+* **Research Assistant** (May 2016 - August 2016)
+  * _Washington University in St. Louis_
+  * Developed adaptive code puzzle system to introduce children to programming.
 
-* August 2015 - December 2015: Visiting Student Intern
-  * Georgia Tech Research Institute (GTRI)
-  * Duties included: Testing and patching software issues
+* **Visiting Student Intern** (August 2015 - December 2015)
+  * _Georgia Tech Research Institute (GTRI)_
+  * Tested and patched software issues.
   
-* August 2015 - March 2019: XOS Replay Technician
-  * Mercer University Athletics
-  * Duties included: Supporting referees officiating live NCAA Basketball and Football games with automatic replay
+* **XOS Replay Technician** (August 2015 - March 2019) 
+  * _Mercer University Athletics_
+  * Supported referees officiating live NCAA Basketball and Football games with automatic replay.
 
 Skills
 ======
@@ -61,7 +61,7 @@ Skills
   * Natural Language Processing
   * Autoencoders
 * Qualitative and quantitative research
-* User Experience
+* Human-centered Design
 
 Publications
 ======
