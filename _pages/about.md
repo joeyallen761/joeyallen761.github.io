@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate studying HCI in the Computer Science Department at Washington University in St. Louis under the advisement of [Caitlin Kelleher](https://engineering.wustl.edu/faculty/Caitlin-Kelleher.html). My primary area of research examines the barriers that programmers face when developing their coding abilities. My work is aimed at developing both tools and guidelines to improve this process.
+I am a PhD candidate studying HCI in the Computer Science Department at Washington University in St. Louis under the advisement of [Caitlin Kelleher](https://engineering.wustl.edu/faculty/Caitlin-Kelleher.html). My primary area of research examines the barriers that programmers face when reusing code at a large scale. My work is aimed at developing both tools and guidelines to improve this process.
 
 In addition to human-computer interaction, I am also interested in the interaction of technology and society--how can we use tech to improve the world, and what can go wrong along the way?
 
