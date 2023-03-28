@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistantship"
 permalink: /teaching/human_centered_design
 venue: "Washington University in St. Louis"
-date: Fall 2022
+date: 2022-08-29
 location: "St. Louis, MO"
 ---
 
