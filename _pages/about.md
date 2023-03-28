@@ -12,4 +12,4 @@ I am a PhD candidate studying HCI in the Computer Science Department at Washingt
 
 In addition to human-computer interaction, I am also interested in the interaction of technology and society--how can we use tech to improve the world, and what can go wrong along the way?
 
-If any of these topics are interesting to you, please don't heistate to reach out via e-mail! I would love to learn about more people, projects, and ideas in this space.
+If any of these topics are interesting to you, please don't hesitate to reach out via e-mail! I would love to learn about more people, projects, and ideas in this space.
