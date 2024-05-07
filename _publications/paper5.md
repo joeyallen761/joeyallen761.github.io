@@ -1,7 +1,7 @@
 ---
-title: "React Example Viability for Efficient API Learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js"
+title: "An Exploratory Study of Programmers' Analogical Reasoning and Software History Usage During Code Re-Purposing"
 collection: publications
-permalink: /publication/paper4
+permalink: /publication/paper5
 excerpt: ''
 date: 2023-03-05
 venue: 'Journal of Computer Languages (COLA)'
