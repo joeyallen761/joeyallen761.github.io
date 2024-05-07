@@ -1,10 +1,10 @@
 ---
-title: "An Exploratory Study of Programmers Analogical Reasoning and Software History Usage During Code Re-Purposing"
+title: "React Example Viability for Efficient API Learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js"
 collection: publications
-permalink: /publication/paper5
+permalink: /publication/paper4
 excerpt: ''
 date: 2023-03-05
-venue: 'Cooperative Human Aspects of Software Engineering (CHASE)'
-paperurl: 'https://conf.researchr.org/details/chase-2024/chase-2024-full-papers/2/An-Exploratory-Study-of-Programmers-Analogical-Reasoning-and-Software-History-Usage-'
-citation: 'J. Allen, C. Kelleher, "An Exploratory Study of Programmers' Analogical Reasoning and Software History Usage During Code Re-Purposing," Cooperative Human Aspects of Software Engineering (CHASE) 2024.'
+venue: 'Journal of Computer Languages (COLA)'
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S2590118423000114'
+citation: 'Allen, J, Kelleher, C. (2023). &quot;React example viability for efficient API learning (REVEAL): A tool to help programmers utilize incompatible code examples in React.js.&quot;<i>Journal of Computer Languages (COLA)</i> p.101201'
 ---
