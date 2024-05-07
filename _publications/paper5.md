@@ -1,5 +1,5 @@
 ---
-title: "An Exploratory Study of Programmers' Analogical Reasoning and Software History Usage During Code Re-Purposing"
+title: "An Exploratory Study of Programmers Analogical Reasoning and Software History Usage During Code Re-Purposing"
 collection: publications
 permalink: /publication/paper5
 excerpt: ''
