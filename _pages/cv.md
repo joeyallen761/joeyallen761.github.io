@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Science, Mercer University, 2017
-* Ph.D in Computer Science, Washington University in St. Louis, 2024 (expected)
+* Ph.D in Computer Science, Washington University in St. Louis, 2025 (expected)
 
 Work experience
 ======
