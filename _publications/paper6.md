@@ -1,10 +1,10 @@
 ---
-title: "An Exploratory Study of Programmers' Analogical Reasoning and Software History Usage During Code Re-Purposing"
+title: "Exploring the impacts of semi-automated storytelling on programmers’ comprehension of software histories"
 collection: publications
-permalink: /publication/paper5
+permalink: /publication/paper6
 excerpt: ''
-date: 2024-04-12
-venue: 'Cooperative and Human Aspects of Software Engineering (CHASE)'
-paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S2590118423000114](https://conf.researchr.org/details/chase-2024/chase-2024-full-papers/2/An-Exploratory-Study-of-Programmers-Analogical-Reasoning-and-Software-History-Usage-'
-citation: 'Allen, J, Kelleher, C. (2024). &quot;An Exploratory Study of Programmers Analogical Reasoning and Software History Usage During Code Repurposing.&quot;<i>Cooperative and Human Aspects of Software Engineering (CHASE)</i>'
+date: 2024-09-04
+venue: 'IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10714574](https://ieeexplore.ieee.org/abstract/document/10714574'
+citation: 'Allen, J, Kelleher, C. (2024). &quot;Exploring the impacts of semi-automated storytelling on programmers’ comprehension of software histories.&quot;<i>IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)</i>'
 ---
