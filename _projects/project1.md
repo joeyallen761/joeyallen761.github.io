@@ -4,7 +4,7 @@ layout: archive
 title: "Project 1"
 permalink: /project/project1
 author_profile: true
-image: "/images/bio-photo-2.jpg"
+image: "/images/Projects/BasketballAppScreenshots/icon.png"
 ---
 
 Excerpt text is here
