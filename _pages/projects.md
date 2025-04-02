@@ -8,4 +8,6 @@ author_profile: true
 
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
 {% endfor %}
