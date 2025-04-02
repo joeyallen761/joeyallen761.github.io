@@ -2,7 +2,7 @@
 title: "Hello world"
 layout: archive
 title: "Project 1"
-permalink: /projects/project1
+permalink: /project/project1
 author_profile: true
 ---
 
