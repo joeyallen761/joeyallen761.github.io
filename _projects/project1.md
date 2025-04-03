@@ -38,7 +38,7 @@ DLC is nice bc output is well formatted
 filtering noisy data
 indexing uncertainty
 
-{% include Projects/Basketball/Plotly/autoencoder_4sec.html %}
+{% include Projects/Basketball/Plotly/autoencoder_4sec_standalone.html %}
 
 browsing huggingface models - google colab
 The text continues
