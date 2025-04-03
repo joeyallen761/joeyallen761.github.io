@@ -12,7 +12,7 @@ This is a project that employs a medley of huggingface models, speech-to-text, t
 ## Motivation
 I have long been interested in how computer vision can mesh with biomechanics for various purposes, from creating interactive art displays to improving sport performance, rehabilitation, wildlife tracking, and more. I made this project to get experience working with frameworks relevant to this line of work.
 
-## Section 1: The Data
+## The Data
 All good AI projects need to start with data. There are many more data sources I could have collected, but my aim was to make something that other people would be able to use on themselves with minimal budget and setup.
 
 At the end of the day, I wanted to collect biomechanical data for each shot, and a label that determined where the ball ended up: "make" or "miss". If I did miss, I wanted to record which direction the ball missed to. 
@@ -21,7 +21,7 @@ So, I devised a plan to capture this: I went to the gym and put on some headphon
 
 After collecting sufficient data, it was time to make it useful.
 
-## Section 2: Extracting Pose Information from Video
+## Extracting Pose Information from Video
 
 My first data-wrangling goal was to extract a useful represention of biomechanic "pose" data for basketball shooting sessions. I researched many APIs to achieve this task, and ultimately decided to choose DeepLabCut because their API will work on huggingface models for non-human animal research also, and I am interested in doing that in the future. After a brief wrestling match with installation and pathing issues, I got my small laptop to succesfully run this software on a small proof-of-concept 30-second video of myself shooting exactly 3 free throws.
 
@@ -33,6 +33,12 @@ My first data-wrangling goal was to extract a useful represention of biomechanic
 For larger videos down the line, I turned to Google Colab for compute resources.
 
 ### Section 2.1: Interpreting Pose Information
+
+DLC is nice bc output is well formatted
+filtering noisy data
+indexing uncertainty
+
+{% include Projects/Basketball/Plotly/autoencoder_4sec.html %}
 
 browsing huggingface models - google colab
 The text continues
