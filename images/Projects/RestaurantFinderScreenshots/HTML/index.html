@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet with CSV Data</title>
+    <!-- Leaflet CSS -->
+    <link 
+      rel="stylesheet" 
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" 
+    />
+    <!-- Leaflet JS -->
+    <script 
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js">
+    </script>
+    <!-- Papa Parse (for CSV) -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js">
+    </script>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        #filters {
+            margin-bottom: 20px;
+        }
+        .filter-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="filters">
+    <div class="filter-group">
+        <label for="rating-min">Rating:</label>
+        <input type="range" id="rating-min" min="4.5" max="5" step="0.1" value="4.5">
+        <input type="range" id="rating-max" min="4.5" max="5" step="0.1" value="5">
+        <span id="rating-range">4.5 - 5</span>
+    </div>
+    <div class="filter-group">
+        <label for="user_ratings_total-min">User Ratings Total:</label>
+        <input type="range" id="user_ratings_total-min" min="900" max="3000" step="1" value="900">
+        <input type="range" id="user_ratings_total-max" min="900" max="3000" step="1" value="3000">
+        <span id="user_ratings_total-range">900 - 3000+</span>
+    </div>
+    <div class="filter-group">
+        <label for="price_level-min">Price Level:</label>
+        <input type="range" id="price_level-min" min="0" max="4" step="1" value="0">
+        <input type="range" id="price_level-max" min="0" max="4" step="1" value="4">
+        <span id="price_level-range">0 - 4</span>
+    </div>
+</div>
+
+<div id="map"></div>
+
+<!-- Our main script -->
+<script>
+let map;
+let markers = [];
+
+function initLeafletMap() {
+  // Create a Leaflet map centered on the same lat/lng and zoom
+  map = L.map('map').setView([38.649554, -90.296692], 9);
+
+  // Use OSM tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap'
+  }).addTo(map);
+
+  map.whenReady(() => {
+      document.querySelectorAll('.leaflet-control-zoom a').forEach(el => {
+        el.removeAttribute('href');
+        el.style.cursor = 'pointer';
+      });
+    });
+
+  // Load CSV data
+  Papa.parse('data_smaller.csv', {
+    download: true,
+    header: true,
+    complete: function(results) {
+      addMarkers(results.data);
+    }
+  });
+
+  // Attach event listeners to update range display whenever filters change
+  const ratingMin = document.getElementById('rating-min');
+  const ratingMax = document.getElementById('rating-max');
+  const userRatingsTotalMin = document.getElementById('user_ratings_total-min');
+  const userRatingsTotalMax = document.getElementById('user_ratings_total-max');
+  const priceLevelMin = document.getElementById('price_level-min');
+  const priceLevelMax = document.getElementById('price_level-max');
+
+  ratingMin.addEventListener('input', updateRangeDisplay);
+  ratingMax.addEventListener('input', updateRangeDisplay);
+  userRatingsTotalMin.addEventListener('input', updateRangeDisplay);
+  userRatingsTotalMax.addEventListener('input', updateRangeDisplay);
+  priceLevelMin.addEventListener('input', updateRangeDisplay);
+  priceLevelMax.addEventListener('input', updateRangeDisplay);
+}
+
+function updateRangeDisplay() {
+  applyFilters();
+  document.getElementById('rating-range').innerText = 
+    document.getElementById('rating-min').value + ' - ' + 
+    document.getElementById('rating-max').value;
+
+  let newVal = 
+    document.getElementById('user_ratings_total-min').value + ' - ' + 
+    document.getElementById('user_ratings_total-max').value;
+  if (newVal.endsWith('3000')) {
+    newVal += '+';
+  }
+  document.getElementById('user_ratings_total-range').innerText = newVal;
+
+  document.getElementById('price_level-range').innerText =
+    document.getElementById('price_level-min').value + ' - ' + 
+    document.getElementById('price_level-max').value;
+}
+
+function addMarkers(data) {
+  data.forEach(row => {
+    const lat = parseFloat(row.latitude);
+    const lng = parseFloat(row.longitude);
+
+    // Make sure we have valid coords
+    if (isNaN(lat) || isNaN(lng)) return;
+
+    // Create a Leaflet marker
+    const marker = L.marker([lat, lng], { title: row.name });
+
+    // Create popup content
+    const popupContent = `
+      <div>
+        <strong>${row.name}</strong><br>
+        Rating: ${row.rating}<br>
+        User Ratings Total: ${row.user_ratings_total}<br>
+        Price Level: ${row.price_level}
+      </div>
+    `;
+    marker.bindPopup(popupContent);
+
+    // On mouseover, open the popup; on mouseout, close it
+    marker.on('mouseover', () => {
+      marker.openPopup();
+    });
+    marker.on('mouseout', () => {
+      marker.closePopup();
+    });
+
+    // Show the marker on the map
+    marker.addTo(map);
+
+    // Keep track of each marker + row so we can filter later
+    markers.push({ marker, row });
+  });
+}
+
+function applyFilters() {
+  const ratingMin = parseFloat(document.getElementById('rating-min').value);
+  const ratingMax = parseFloat(document.getElementById('rating-max').value);
+
+  const userRatingsTotalMin = parseInt(document.getElementById('user_ratings_total-min').value, 10);
+  let userRatingsTotalMax = parseInt(document.getElementById('user_ratings_total-max').value, 10);
+  if (userRatingsTotalMax === 3000) {
+      userRatingsTotalMax = 99999999; // effectively "infinite"
+  }
+
+  const priceLevelMin = parseInt(document.getElementById('price_level-min').value, 10);
+  const priceLevelMax = parseInt(document.getElementById('price_level-max').value, 10);
+
+  markers.forEach(({ marker, row }) => {
+    // Convert fields in row to numbers for comparison
+    const rating = parseFloat(row.rating) || 0;
+    const userRatingsTotal = parseInt(row.user_ratings_total) || 0;
+    const priceLevel = parseInt(row.price_level) || 0;
+
+    // Check if row matches all filters
+    const matchesFilter = (
+      rating >= ratingMin && rating <= ratingMax &&
+      userRatingsTotal >= userRatingsTotalMin && userRatingsTotal <= userRatingsTotalMax &&
+      priceLevel >= priceLevelMin && priceLevel <= priceLevelMax
+    );
+
+    // Leaflet doesn't have "setVisible", so we remove or add
+    if (matchesFilter) {
+      // If it's not already on the map, add it
+      if (!map.hasLayer(marker)) {
+        marker.addTo(map);
+      }
+    } else {
+      // If it's on the map, remove it
+      if (map.hasLayer(marker)) {
+        map.removeLayer(marker);
+      }
+    }
+  });
+}
+
+// Initialize our map once the DOM is ready
+document.addEventListener('DOMContentLoaded', initLeafletMap);
+</script>
+</body>
+</html>

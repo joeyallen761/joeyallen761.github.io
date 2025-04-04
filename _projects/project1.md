@@ -1,7 +1,6 @@
 ---
-title: "Hello world"
-layout: archive
 title: "Basketball Shot Trainer App"
+layout: archive
 permalink: /project/project1
 author_profile: true
 image: "/images/Projects/BasketballAppScreenshots/icon.jpg"
