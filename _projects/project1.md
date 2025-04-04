@@ -96,6 +96,9 @@ There is plenty of easy feedback to give users based on the audio data alone! Fo
   <em>The tool uses Matplotlib to visualize shot performance during each sesssion, and feeds summary statistics into a formatted prompt to send to an LLM using the openai API.</em>
 </div>
 
+Also, this tool visualizes a players "streakiness". This may be helpful in showing them how many warmup shots they need to take before getting into rythm, and detecting fatigue if the ball starts to miss over time.
+
+  <iframe src="../images/Projects/BasketballAppScreenshots/Plotly/shot_progression.html" alt="Shots over time." width="100%" height="600" style="border:none;"></iframe>
 
 ## Bloopers
 
