@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include base_path %}
 
-{% for post in site.projects reversed %}
+{% for post in site.projects %}
 <div class="project-preview">
   <img src="{{ post.image }}" alt="{{ post.title }} image">
   <div class="project-text">

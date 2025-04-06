@@ -43,3 +43,30 @@
     font-size: 0.95em;
     color: #555;
   }
+
+  .iframe-with-caption-short {
+    flex: 1 1 45%; // or any percentage that fits your layout nicely
+    max-width: 600px; // optional, to prevent stretching too wide
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  .iframe-with-caption-short iframe {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .iframe-with-caption-short em {
+    display: block;
+    margin-top: 0.75em;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+  }

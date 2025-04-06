@@ -6,7 +6,7 @@ author_profile: true
 image: "/images/Projects/BasketballAppScreenshots/icon.jpg"
 ---
 
-This is a project that employs a medley of huggingface models, speech-to-text, time-series analysis, visualization, and LLM prompt engineering to provide feedback to a basketball player as they practice their shot.
+This is a project that employs computer vision, speech-to-text, time-series analysis, visualization, and LLM prompt engineering to provide feedback to a basketball player as they practice their shot.
 
 <p align="center">
   <img src="../images/Projects/BasketballAppScreenshots/labeledscreenshot.png" alt="My second photo" width="400"/><br/>
@@ -63,7 +63,8 @@ After combining shot labels with segmented biomechanic data from Deeplabcut, I w
   <em>By using a CNN-LSTM autoencoder, we can compress our data to 3 dimensions while focusing on its temporal-spatial structure. Green = "make" and Red = "miss".</em>
 </div>
 
-This graph was made after several iterations of data cleaning, such as trimming off the "follow-through" of the shot (to stop the model from focusing on how my body language "reacts" to the result of the shot), and using Dynamic Time Warping to maximally align the shots temporally.
+This graph was made after several iterations of data cleaning, such as trimming off the "follow-through" of the shot (to stop the model from focusing on how my body language "reacts" to the result of the shot), and using Dynamic Time Warping to maximally align the shots temporally. 
+<!-- Even though temporal aligning has been incorporated, further inspection of the data leads me to believe that the "line-like" shape of the distribution reveals a dimension that represents the alignment of the shot data relevant to the actual ball being released. -->
 
 <div class="img-caption-row">
   <div class="img-with-caption">
@@ -76,12 +77,10 @@ This graph was made after several iterations of data cleaning, such as trimming 
   </div>
 </div>
 
-
 <!-- <div class="img-with-caption">
   <img src="../images/Projects/BasketballAppScreenshots/all_joint_positions_shot1.png" alt="All joints position during shot 1"/>
   <em>This graph shows the tracked Y-positions of all major joints throughout shot 1, labeled as a right-side shot.</em>
 </div> -->
-
 
 ## Providing Visual and Natural Language Feedback to Users
 There is plenty of easy feedback to give users based on the audio data alone! For a proof-of-concept, this code calculates various statistics of a given free throw shooting session, and then visualizes them and uses OpenAI's API to provide feedback in a natural language form. 
@@ -97,25 +96,28 @@ There is plenty of easy feedback to give users based on the audio data alone! Fo
 
 Also, this tool visualizes a players "streakiness". This may be helpful in showing them how many warmup shots they need to take before getting into rythm, and detecting fatigue if the ball starts to miss over time.
 
-  <iframe src="../images/Projects/BasketballAppScreenshots/Plotly/shot_progression.html" alt="Shots over time." width="100%" height="600" style="border:none;"></iframe>
+<iframe src="../images/Projects/BasketballAppScreenshots/Plotly/shot_progression.html" alt="Shots over time." width="100%" height="auto" style="border:none;"></iframe>
+<em>This visualization shows shot performance over time througout a shootaround session.</em>
 
-## Bloopers
+These visualizations are just some of many ways to present feedback to basketball players as they work on their form. Although I did train a simple RNN classifier to predict whether shots are "made" or "missed", the model had poor accuracy due to the small amount of data, the consistency in free throw form (having practiced freethrows more than a beginner might have), and the granularity of the captured data. Future work should include using beginners who are working on finding a jump shot form, allowing them to see how different variations of their shooting forms are related to shooting accuracy.
 
-Importance of visual feedback when working with high-dimensional data.
+All code will be pushed after we finish user testing in May, but if you would like a copy, please reach out to me and I will send you the code!
 
+<!-- ## Bloopers
+When working with high-dimensional or abstract data, sometimes it is difficult to know that you're extracting anything meaningful. So instead of simply running a classification algorithm on my shots, I wanted to get a sense of the distribution of the data, and how well 3 dimensions could pick out different quirks of my data. So I visualized the shot data to make sense of the dimensions the neural network has projected the data into. Below is the 3D output of the first autoencoder's latent variables, done with minimal pre-processing mostly as a "reality check":
 
 <div class="iframe-with-caption">
   <iframe src="../images/Projects/BasketballAppScreenshots/Plotly/autoencoder_4sec_standalone.html" alt="All joints position during shot 1" width="100%" height="600" style="border:none;"></iframe>
-  <em>This graph shows the tracked Y-positions of all major joints throughout shot 1, labeled as a right-side shot.</em>
+  <em>First 3D visualization of autoencoder latent projections of the basketball shot data.</em>
 </div>
 
-
+This visualization first showed some semblance of a distribution of shots here with clear outliers. 
 
 <div class="img-with-caption">
   <img src="../images/Projects/BasketballAppScreenshots/rebounding.png" alt="No wonder this data is an obvious 'miss'."/>
   <em>This shot appeared to be the biggest outlier: because I zoomed off immediately for the rebound after missing badly.</em>
 </div>
-
+ -->
 
 
 
