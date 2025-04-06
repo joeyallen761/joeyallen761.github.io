@@ -6,7 +6,7 @@ author_profile: true
 image: "/images/Projects/MosaicScreenshots/icon.png"
 ---
 
-Using python to create personalized photo mosaics.
+Using python to create personalized photo mosaics. More coming soon!
 
 <div class="img-caption-row">
   <div class="img-with-caption">

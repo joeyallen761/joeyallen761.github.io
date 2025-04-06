@@ -49,7 +49,7 @@ This work was inspired by the underlying theory that superb restaurants are like
 When you dive into the data, there are many trends that surface:
 <div class="img-with-caption-wide">
     <img src="../images/Projects/RestaurantFinderScreenshots/plotted_stl.png" alt="STL Boundary" width="100%" height="600"/><br/>
-    <em>We can query Google Places API by querying a radius around a given longitude and latitude location.</em>
+    <em>Where do a lot of people eat, but don't think it's that great? Fast food. Where are places that people love, but not many know about? Hidden gems. What about the outliers in quality and reputation? Check out the Legendary/Top-Tier areas.</em>
 </div>
 
 
