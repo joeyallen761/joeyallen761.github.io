@@ -66,4 +66,5 @@ When you dive into the data, there are many trends that surface:
 </div>
 
 
-[test](../images/Projects/RestaurantFinderScreenshots/Plotly/all_beers.html)
+## Next Steps
+Since there is mass statistical inconsistency between populations that rank different restaurants, the overall rating is subject to much bias. I am interested in handling individual and group differences by exploring 1) reviewer-normalized rankings and 2) an ELO-based restaurant ranking system. For each of these approaches, I will need to download much more data. Instead of simply getting the number of reviews and average review of each restaurant, I will need to build a database of all individual reviewers who have reviewed any restaurant in a given radius, and build a social comparative network to rank restaurants in a way that mitigates subjective differences. If you have any ideas on how to get this kind of data, send me an email!
