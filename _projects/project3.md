@@ -21,6 +21,8 @@ Using python to create personalized photo mosaics. More coming soon!
   </div>
 </div>
 
+All code will be pushed after we finish user testing in May, but if you would like a copy, please reach out to me and I will send you the code!
+
 More coming soon!
-## Avoiding Nearby Duplicates
-## Scaling: Runtime Memory Optimization 
+- Avoiding Nearby Duplicates
+- Scaling: Runtime Memory Optimization 
