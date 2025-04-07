@@ -6,7 +6,7 @@ author_profile: true
 image: "/images/Projects/DevTales/DevTalesIcon.png"
 ---
 
-DevTales is a tool for recording and displaying the historical decision-making behind code.
+DevTales is a tool for recording and displaying the historical decision-making behind code, improving knowledge-sharing and collaboration across time.
 
 <h2>DevTales</h2>
 
