@@ -16,7 +16,7 @@ This is a project made to help people explore cities and tastes through data.
 ## Geospatial Fractal Geometry Saves the Day
 It may not seem like a terribly ambitious venture to download a comprehensive list of restaurants in an area. I believed it would be trivial to download restaurant data from Google Maps--after all, there's an API for that! After researching the best ways to get this data, I created a Google Cloud Platform account so that I could plug into Google Places API. It turns out they have a nice function that lets you find restaurants within a circle of area on a map specified by latitude, longitude, and surrounding radius.
 
-I thought my problem was solved: one query and that's it? There had to be a catch. When I wrote that code, I found that Google Places API returns a maximum of 60 results (that cannot be overridden), and there was no built-in way to grab ALL of the Places data within an arbitrary radius of area. So, I came up with the idea of breaking a large circle area into a series of smaller subcircle areas. The recursive algorithm is as follows: 
+I thought my problem was solved: one query and that's it? There had to be a catch. When I wrote that code, I found that Google Places API returns a maximum of 60 results (a hard max that cannot be overridden), and there was no built-in way to grab ALL of the Places data within an arbitrary radius of area. So, I came up with the idea of breaking a large circle area into a series of smaller subcircle areas. The recursive algorithm is as follows: 
 
 - Query a circle area.
 - Examine the results

@@ -96,8 +96,11 @@ There is plenty of easy feedback to give users based on the audio data alone! Fo
 
 Also, this tool visualizes a players "streakiness". This may be helpful in showing them how many warmup shots they need to take before getting into rythm, and detecting fatigue if the ball starts to miss over time.
 
-<iframe src="../images/Projects/BasketballAppScreenshots/Plotly/shot_progression.html" alt="Shots over time." width="100%" height="auto" style="border:none;"></iframe>
-<em>This visualization shows shot performance over time througout a shootaround session.</em>
+<p align="center">
+  <iframe src="../images/Projects/BasketballAppScreenshots/Plotly/shot_progression.html" alt="Shots over time." width="100%" height="auto" style="border:none;"></iframe>
+
+  <em>This visualization shows shot performance over time througout a shootaround session. It shows that I started the free throw session shooting the ball too far, and took about 40 shots before I got into a good rhythm. This could provide personalized warmup recommendations.</em>
+</p>
 
 These visualizations are just some of many ways to present feedback to basketball players as they work on their form. Although I did train a simple RNN classifier to predict whether shots are "made" or "missed", the model had poor accuracy due to the small amount of data, the consistency in free throw form (having practiced freethrows more than a beginner might have), and the granularity of the captured data. Future work should include using beginners who are working on finding a jump shot form, allowing them to see how different variations of their shooting forms are related to shooting accuracy.
 
