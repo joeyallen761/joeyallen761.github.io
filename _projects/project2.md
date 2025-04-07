@@ -43,7 +43,7 @@ This work was inspired by the underlying theory that superb restaurants are like
 
 <div class="iframe-with-caption">
   <iframe src="../images/Projects/RestaurantFinderScreenshots/Plotly/stl/stl_restaurants.html" alt="St. Louis Restaurant Ratings" width="100%" height="600" style="border:none;"></iframe>
-  <em>All restaurants registered in Google Maps in St. Louis graphed by review count (log scale) and average review.</em>
+  <em>All restaurants registered in Google Maps in St. Louis graphed by review count (log scale) and average review. Jitter has been applied to avoid overlap.</em>
 </div>
 
 When you dive into the data, there are many trends that surface:
