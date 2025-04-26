@@ -9,7 +9,7 @@ image: "/images/Projects/WolfMonitoring/wolf_icon.png"
 This is a proof-of-concept project to show the potential value of animal pose estimation for wildlife monitoring in vulnerable populations.
 
 <article>
-  <h1>How AI Tools Like DeepLabCut Are Transforming Wildlife Monitoring</h1>
+  <h1>How AI Tools Like DeepLabCut Can Transform Wildlife Monitoring</h1>
 
   <p>In recent years, artificial intelligence has opened exciting new frontiers for wildlife research. One tool at the forefront is <a href="https://www.deeplabcut.org/" target="_blank">DeepLabCut</a>, an open-source project that uses deep learning to track animal movements from videos—even when the footage comes from rugged trail cameras in the wild.</p>
 
