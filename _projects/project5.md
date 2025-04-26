@@ -22,13 +22,16 @@ This is a proof-of-concept project to show the potential value of animal pose es
     <em>DeepLabCut annotates keypoint locations for an injured wolf. Video captured by the Voyageurs Wolf Project.</em>
 </div>
 
-  <p>Rather than relying on slow manual observation, researchers could now detect and measure anomalies like this quickly, precisely, and at scale.</p>
-
+  <p>
+  this has data When you dive into the data, there are many trends that surface:
+  </p>
 
   <div class="img-with-caption-wide">
     <img src="../images/Projects/WolfMonitoring/wolf_scatter.png" alt="Injured Wolf Leg Keypoints Scatterplot" width="400"/><br/>
-    <em>Scatterplots for each keypoint in each of the wolf's legs. This shows unusual X,Y overlap on the front left (injured) leg. </em>
+    <em>Scatterplots for each keypoint in each of the wolf's legs. This shows unusual Y overlap on the front left (injured) leg between the wolf's paw and knee. It also shows that while there is range of motion for three of the paws for each of the steps the wolf takes, the front left leg remains rigid, with the front paw protruding backwards relative to the knee.</em>
   </div>
+
+  <p>Rather than relying on slow manual observation, researchers could now detect and measure anomalies like this quickly, precisely, and at scale.</p>
 
   <div class="img-with-caption-wide">
     <img src="../images/Projects/WolfMonitoring/wolf_ROM.png" alt="Range of Motion Plots for each leg of injured wolf"/>
@@ -61,9 +64,7 @@ This is a proof-of-concept project to show the potential value of animal pose es
   <p>As AI models continue to improve, they can free researchers from tedious tasks, allowing them to focus on the bigger picture: protecting ecosystems, understanding behavior, and responding to threats more quickly.</p>
 
   <p>From detecting a single wolf’s limp to surveying an entire forest's health, these tools are becoming essential allies in the future of conservation science.</p>
+
+  <p><strong>Other applications:</strong> While conservation and wildlife are passions for me, these technologies can be useful to monitor and manage livestock, pets, and even humans in physical therapy and rehab.
 </article>
 
-
-
-
-When you dive into the data, there are many trends that surface:
