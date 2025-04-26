@@ -18,16 +18,16 @@ This is a proof-of-concept project to show the potential value of animal pose es
   <p><strong>Imagine this:</strong> researchers analyzing trailcam footage notice a lone wolf limping across a clearing. By applying DeepLabCut, they can automatically annotate the wolf’s limb positions frame-by-frame. In one case study, DeepLabCut revealed a striking pattern: while three legs moved fluidly, one lagged severely behind—evidence of a broken leg.</p>
 
 <div class="img-with-caption-wide">
-    <img src="../images/Projects/WolfMonitoring/output.gif" alt="Wolf Keypoint Annotation" width="100%" height="600"/><br/>
+    <img src="../images/Projects/WolfMonitoring/output.gif" alt="Wolf Keypoint Annotation" width="100%" height="600"/>
     <em>DeepLabCut annotates keypoint locations for an injured wolf. Video captured by the Voyageurs Wolf Project.</em>
 </div>
 
   <p>
-  this has data When you dive into the data, there are many trends that surface:
+  Deeplabcut is a great way to extract meaningful biomechanic data from wildlife cams. By extracting animal pose information, we can transform videos into insights. When you dive into the data, there are many trends that surface:
   </p>
 
   <div class="img-with-caption-wide">
-    <img src="../images/Projects/WolfMonitoring/wolf_scatter.png" alt="Injured Wolf Leg Keypoints Scatterplot" width="400"/><br/>
+    <img src="../images/Projects/WolfMonitoring/wolf_scatter.png" alt="Injured Wolf Leg Keypoints Scatterplot" width="100%"/>
     <em>Scatterplots for each keypoint in each of the wolf's legs. This shows unusual Y overlap on the front left (injured) leg between the wolf's paw and knee. It also shows that while there is range of motion for three of the paws for each of the steps the wolf takes, the front left leg remains rigid, with the front paw protruding backwards relative to the knee.</em>
   </div>
 
@@ -35,7 +35,7 @@ This is a proof-of-concept project to show the potential value of animal pose es
 
   <div class="img-with-caption-wide">
     <img src="../images/Projects/WolfMonitoring/wolf_ROM.png" alt="Range of Motion Plots for each leg of injured wolf"/>
-    <em>Calculating the range of motion for all joints on each leg shows us clearly that the front left leg is an outlier, with highly limited range of motion, indicating an injury.</em>
+    <em>Calculating the range of motion for all joints on each leg shows us clearly that the front left leg is an outlier, with highly limited range of motion, indicating an injury. The back left leg has the largest range of motion, likely to make up for the injured front left leg. This additional motion is taxing over time, and can put the animal at risk for further injury.</em>
   </div>
 
   <h2>Why This Matters</h2>
