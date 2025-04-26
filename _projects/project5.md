@@ -15,7 +15,7 @@ This is a proof-of-concept project to show the potential value of animal pose es
 
   <h2>Detecting Anomalies in the Wild</h2>
 
-  <p><strong>Imagine this:</strong> researchers analyzing trailcam footage notice a lone wolf limping across a clearing. By applying DeepLabCut, they can automatically annotate the wolf’s limb positions frame-by-frame. In one case study, DeepLabCut revealed a striking pattern: while three legs moved fluidly, one lagged severely behind—evidence of a broken leg.</p>
+  <p><strong>Imagine this:</strong> researchers analyzing trailcam footage notice a lone wolf limping across a clearing. By applying DeepLabCut, they can automatically annotate the wolf’s limb positions frame-by-frame. In one case study, I used DeepLabCut to show that such injuries may be detected automatically.</p>
 
 <div class="img-with-caption-wide">
     <img src="../images/Projects/WolfMonitoring/output.gif" alt="Wolf Keypoint Annotation" width="100%" height="600"/>
